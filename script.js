@@ -1,23 +1,21 @@
 
   document.addEventListener("DOMContentLoaded", function() {
-    const box = document.getElementById("quote-box");
     const colorButton = document.getElementById("new-quote");
-    const tasks = document.getElementById("new-task");
+    
     getRandomQuotes();
+    
     colorButton.addEventListener("click", function() {
       changeColor();
       getRandomQuotes();
     });
-    tasks.addEventListener("click", function() {
-        randomTask();
-      });
+
     function changeColor() {
       const randomColor = getRandomColor();
       quote.style.color = randomColor;
       body.style.backgroundColor = randomColor;
       colorButton.style.color = randomColor;
       author.style.color = randomColor;
-      
+      coma.style.color= randomColor;
     }
   
     function getRandomColor() {
