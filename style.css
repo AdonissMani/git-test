@@ -54,6 +54,7 @@ body {
 #quote-box .quote-text i {
   font-size: 1em;
   margin-right: 0.4em;
+  font-weight: 800;
 }
 #quote-box .quote-author {
   width: 450px;
@@ -62,6 +63,7 @@ body {
   padding-top: 20px;
   font-size: 1em;
   text-align: right;
+  font-weight: 900;
 }
 #quote-box .buttons {
   width: 450px;
@@ -73,7 +75,7 @@ body {
   border: none;
   border-radius: 3px;
   color: #fff;
-  background-color: #333;
+  background-color: #fffefe;
   outline: none;
   font-size: 0.85em;
   padding: 8px 18px 6px 18px;
@@ -83,18 +85,16 @@ body {
 }
 #quote-box .buttons .button:hover {
   opacity: 0.9;
+  color: black;
 }
-#quote-box .buttons .button#tweet-quote,
-#quote-box .buttons .button#tumblr-quote {
-  float: left;
-  padding: 0px;
-  padding-top: 8px;
-  text-align: center;
-  font-size: 1.2em;
-  margin-right: 5px;
-  height: 30px;
-  width: 40px;
+
+.fab.fa-twitter {
+  font-size: 20px;
 }
 #quote-box .buttons .button#new-quote {
   float: right;
+  background-color: #fff;
+  padding: 30px;
+  size: 30px;
 }
+
